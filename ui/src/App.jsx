@@ -17,7 +17,6 @@ function App() {
           <li>{iterate.title}</li>
         ))}
       </ul>
-
     </>
   )
 }
