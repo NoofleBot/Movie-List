@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  movie-list-db:
+    image: postgres:latest
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - DATABASE_USER=postgres
+      - POSTGRES_PASSWORD=docker
+    ports:
+      - 5174:5432
+    volumes:
+      - $HOME/docker/volumes/postgres:/var/lib/postgresql/data

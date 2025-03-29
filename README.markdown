@@ -18,5 +18,5 @@ cd server && npm install && npm run server
 
 4. Then startup the user interface of the app
 ```bash
-cd ui && npm install && npm run dev
+cd frontend && npm install && npm run dev
 ```
